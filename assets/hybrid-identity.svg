@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img" aria-label="Hybrid identity lab architecture diagram">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#55b7ff"/><stop offset="1" stop-color="#7cf5d1"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="1100" height="520" rx="28" fill="#07111f"/>
+  <rect x="30" y="30" width="1040" height="460" rx="24" fill="#0d1b2f" stroke="rgba(255,255,255,.14)"/>
+  <text x="70" y="86" fill="#eef6ff" font-family="Segoe UI, Arial" font-size="32" font-weight="800">Hybrid Identity Lab</text>
+  <text x="70" y="120" fill="#b7c7dc" font-family="Segoe UI, Arial" font-size="18">Active Directory → Entra Connect → Entra ID → Intune / Defender</text>
+  <g filter="url(#s)" font-family="Segoe UI, Arial">
+    <rect x="70" y="190" width="205" height="130" rx="18" fill="#10233e" stroke="#55b7ff"/>
+    <text x="98" y="237" fill="#eef6ff" font-size="22" font-weight="700">DC01-ENTRA</text>
+    <text x="98" y="268" fill="#b7c7dc" font-size="16">AD DS + DNS</text>
+    <text x="98" y="292" fill="#7cf5d1" font-size="14">zondi.operations</text>
+
+    <rect x="340" y="190" width="205" height="130" rx="18" fill="#10233e" stroke="#55b7ff"/>
+    <text x="368" y="237" fill="#eef6ff" font-size="22" font-weight="700">SYNC01</text>
+    <text x="368" y="268" fill="#b7c7dc" font-size="16">Entra Connect</text>
+    <text x="368" y="292" fill="#7cf5d1" font-size="14">Password Hash Sync</text>
+
+    <rect x="610" y="190" width="205" height="130" rx="18" fill="#10233e" stroke="#55b7ff"/>
+    <text x="638" y="237" fill="#eef6ff" font-size="22" font-weight="700">Microsoft Entra</text>
+    <text x="638" y="268" fill="#b7c7dc" font-size="16">Users + Devices</text>
+    <text x="638" y="292" fill="#7cf5d1" font-size="14">Hybrid Join + MFA</text>
+
+    <rect x="865" y="120" width="155" height="105" rx="18" fill="#10233e" stroke="#7cf5d1"/>
+    <text x="900" y="165" fill="#eef6ff" font-size="22" font-weight="700">Intune</text>
+    <text x="895" y="195" fill="#b7c7dc" font-size="15">Compliance</text>
+
+    <rect x="865" y="290" width="155" height="105" rx="18" fill="#10233e" stroke="#7cf5d1"/>
+    <text x="896" y="335" fill="#eef6ff" font-size="22" font-weight="700">Defender</text>
+    <text x="895" y="365" fill="#b7c7dc" font-size="15">EDR onboarding</text>
+  </g>
+  <g stroke="url(#g)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M275 255H340"/><path d="M545 255H610"/><path d="M815 245 C850 220 858 185 865 172"/><path d="M815 275 C850 295 858 325 865 342"/>
+  </g>
+  <g fill="#7cf5d1"><polygon points="334,255 320,247 320,263"/><polygon points="604,255 590,247 590,263"/><polygon points="860,174 844,172 853,185"/><polygon points="861,341 846,333 849,349"/></g>
+  <rect x="70" y="380" width="445" height="54" rx="14" fill="rgba(124,245,209,.08)" stroke="rgba(124,245,209,.26)"/>
+  <text x="96" y="414" fill="#dff4ff" font-family="Segoe UI, Arial" font-size="16">Skills proven: Hybrid identity, Intune enrollment, Conditional Access, MFA, Defender onboarding</text>
+</svg>

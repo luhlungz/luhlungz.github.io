@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img" aria-label="Intune endpoint management lab diagram">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#55b7ff"/><stop offset="1" stop-color="#7cf5d1"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".28"/></filter></defs>
+  <rect width="1100" height="520" rx="28" fill="#07111f"/>
+  <rect x="30" y="30" width="1040" height="460" rx="24" fill="#0d1b2f" stroke="rgba(255,255,255,.14)"/>
+  <text x="70" y="86" fill="#eef6ff" font-family="Segoe UI, Arial" font-size="32" font-weight="800">Intune Endpoint Management Lab</text>
+  <text x="70" y="120" fill="#b7c7dc" font-family="Segoe UI, Arial" font-size="18">Compliance, Company Portal, application deployment and device validation</text>
+  <g filter="url(#s)" font-family="Segoe UI, Arial">
+    <rect x="90" y="210" width="220" height="140" rx="20" fill="#10233e" stroke="#55b7ff"/><text x="125" y="255" fill="#eef6ff" font-size="22" font-weight="700">CL01-ENTRA</text><text x="125" y="286" fill="#b7c7dc" font-size="16">Windows client</text><text x="125" y="312" fill="#7cf5d1" font-size="14">Managed device</text>
+    <rect x="430" y="150" width="235" height="105" rx="20" fill="#10233e" stroke="#7cf5d1"/><text x="476" y="194" fill="#eef6ff" font-size="22" font-weight="700">Compliance</text><text x="472" y="224" fill="#b7c7dc" font-size="15">Policy + status</text>
+    <rect x="430" y="295" width="235" height="105" rx="20" fill="#10233e" stroke="#7cf5d1"/><text x="484" y="339" fill="#eef6ff" font-size="22" font-weight="700">App Deploy</text><text x="472" y="369" fill="#b7c7dc" font-size="15">7-Zip / Company Portal</text>
+    <rect x="780" y="210" width="230" height="140" rx="20" fill="#10233e" stroke="#55b7ff"/><text x="826" y="255" fill="#eef6ff" font-size="22" font-weight="700">Validation</text><text x="820" y="286" fill="#b7c7dc" font-size="16">Sync + install status</text><text x="820" y="312" fill="#7cf5d1" font-size="14">Troubleshooting notes</text>
+  </g>
+  <path d="M310 260C350 210 386 200 430 202" stroke="url(#g)" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M310 300C350 342 386 348 430 348" stroke="url(#g)" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M665 202C710 204 744 230 780 260" stroke="url(#g)" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M665 348C710 346 744 324 780 300" stroke="url(#g)" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

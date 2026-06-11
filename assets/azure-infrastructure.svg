@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img" aria-label="Azure infrastructure lab architecture diagram">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#55b7ff"/><stop offset="1" stop-color="#7cf5d1"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".28"/></filter></defs>
+  <rect width="1100" height="520" rx="28" fill="#07111f"/>
+  <rect x="30" y="30" width="1040" height="460" rx="24" fill="#0d1b2f" stroke="rgba(255,255,255,.14)"/>
+  <text x="70" y="86" fill="#eef6ff" font-family="Segoe UI, Arial" font-size="32" font-weight="800">Azure Infrastructure Lab</text>
+  <text x="70" y="120" fill="#b7c7dc" font-family="Segoe UI, Arial" font-size="18">Resource group, VNet, subnet, NSG, ASG, Windows Server VMs and monitoring</text>
+  <rect x="90" y="170" width="920" height="270" rx="24" fill="#07182c" stroke="#55b7ff" stroke-dasharray="10 8"/>
+  <text x="120" y="205" fill="#7cf5d1" font-family="Segoe UI, Arial" font-size="18" font-weight="700">VNET-LAB-01 / 10.10.0.0/16</text>
+  <rect x="130" y="235" width="840" height="165" rx="20" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.16)"/>
+  <text x="160" y="270" fill="#dff4ff" font-family="Segoe UI, Arial" font-size="16">SUBNET-APP-01 / 10.10.1.0/24</text>
+  <g filter="url(#s)" font-family="Segoe UI, Arial">
+    <rect x="180" y="300" width="210" height="80" rx="16" fill="#10233e" stroke="#55b7ff"/><text x="212" y="335" fill="#eef6ff" font-size="20" font-weight="700">AZSRV01</text><text x="212" y="362" fill="#b7c7dc" font-size="14">IIS + controlled access</text>
+    <rect x="520" y="300" width="210" height="80" rx="16" fill="#10233e" stroke="#55b7ff"/><text x="552" y="335" fill="#eef6ff" font-size="20" font-weight="700">AZSRV02</text><text x="552" y="362" fill="#b7c7dc" font-size="14">RDP from AZSRV01 only</text>
+    <rect x="800" y="230" width="130" height="80" rx="16" fill="#10233e" stroke="#7cf5d1"/><text x="840" y="264" fill="#eef6ff" font-size="20" font-weight="700">NSG</text><text x="824" y="290" fill="#b7c7dc" font-size="14">Traffic rules</text>
+    <rect x="800" y="335" width="130" height="80" rx="16" fill="#10233e" stroke="#7cf5d1"/><text x="840" y="369" fill="#eef6ff" font-size="20" font-weight="700">ASG</text><text x="820" y="395" fill="#b7c7dc" font-size="14">Role grouping</text>
+  </g>
+  <path d="M390 340H520" stroke="url(#g)" stroke-width="4" fill="none" stroke-linecap="round"/><polygon points="514,340 500,332 500,348" fill="#7cf5d1"/>
+  <path d="M730 340C760 322 780 294 800 270" stroke="url(#g)" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M730 350C765 356 782 370 800 375" stroke="url(#g)" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

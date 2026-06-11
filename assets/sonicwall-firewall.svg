@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img" aria-label="SonicWall firewall and VPN lab diagram">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#55b7ff"/><stop offset="1" stop-color="#7cf5d1"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+  <rect width="1100" height="520" rx="28" fill="#07111f"/>
+  <circle cx="120" cy="80" r="170" fill="#55b7ff" opacity="0.08"/>
+  <circle cx="960" cy="430" r="190" fill="#7cf5d1" opacity="0.08"/>
+  <g font-family="Inter, Segoe UI, Arial" fill="#eef6ff" filter="url(#shadow)">
+    <rect x="60" y="175" width="210" height="120" rx="20" fill="#0d1b2f" stroke="#55b7ff" stroke-opacity="0.5"/>
+    <text x="165" y="222" text-anchor="middle" font-size="23" font-weight="800">Remote User</text>
+    <text x="165" y="252" text-anchor="middle" font-size="16" fill="#b7c7dc">NetExtender / SSL VPN</text>
+
+    <rect x="355" y="145" width="250" height="180" rx="24" fill="#0d1b2f" stroke="url(#g)" stroke-width="2"/>
+    <text x="480" y="195" text-anchor="middle" font-size="26" font-weight="900">SonicWall Firewall</text>
+    <text x="480" y="230" text-anchor="middle" font-size="16" fill="#b7c7dc">Rules • NAT • VPN • Logs</text>
+    <text x="480" y="260" text-anchor="middle" font-size="16" fill="#b7c7dc">SSLVPN user group access</text>
+    <text x="480" y="290" text-anchor="middle" font-size="16" fill="#b7c7dc">Troubleshooting + monitoring</text>
+
+    <rect x="700" y="70" width="250" height="110" rx="20" fill="#0d1b2f" stroke="#55b7ff" stroke-opacity="0.45"/>
+    <text x="825" y="116" text-anchor="middle" font-size="22" font-weight="800">LAN Network</text>
+    <text x="825" y="146" text-anchor="middle" font-size="15" fill="#b7c7dc">Users, printers, services</text>
+
+    <rect x="700" y="215" width="250" height="110" rx="20" fill="#0d1b2f" stroke="#7cf5d1" stroke-opacity="0.45"/>
+    <text x="825" y="260" text-anchor="middle" font-size="22" font-weight="800">Server / Admin Access</text>
+    <text x="825" y="290" text-anchor="middle" font-size="15" fill="#b7c7dc">Controlled internal resources</text>
+
+    <rect x="700" y="360" width="250" height="110" rx="20" fill="#0d1b2f" stroke="#ffd166" stroke-opacity="0.45"/>
+    <text x="825" y="405" text-anchor="middle" font-size="22" font-weight="800">Logs + Testing</text>
+    <text x="825" y="435" text-anchor="middle" font-size="15" fill="#b7c7dc">Connectivity, packet/log review</text>
+
+    <line x1="270" y1="235" x2="355" y2="235" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/>
+    <line x1="605" y1="200" x2="700" y2="125" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/>
+    <line x1="605" y1="235" x2="700" y2="270" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/>
+    <line x1="605" y1="280" x2="700" y2="415" stroke="url(#g)" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

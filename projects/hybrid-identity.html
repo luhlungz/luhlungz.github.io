@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hybrid Identity Lab | Lungani Zondi</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+  <header class="nav"><div class="container nav-inner"><a class="brand" href="../index.html"><span class="brand-mark">LZ</span><span>Lungani Zondi</span></a><button class="menu-button" aria-expanded="false">Menu</button><nav class="nav-links"><a href="../index.html#projects">Projects</a><a href="../index.html#skills">Skills</a><a href="../index.html#contact">Contact</a></nav></div></header>
+  <main>
+    <section class="page-hero"><div class="container"><div class="breadcrumb"><a href="../index.html">Home</a> / Projects</div><h1>Hybrid Identity Lab</h1><p class="lead">Active Directory, Entra Connect, Hybrid Microsoft Entra Join, Intune enrollment, Conditional Access, MFA and Defender onboarding.</p></div></section>
+    <section class="section"><div class="container article">
+      <div class="diagram"><img src="../assets/hybrid-identity.svg" alt="Hybrid identity lab architecture diagram"></div>
+      <h2>Project overview</h2>
+      <p>This lab was built to understand how on-premises Active Directory connects with Microsoft Entra ID and how Windows devices move from domain join into hybrid Microsoft Entra Join and Intune management.</p>
+      <div class="callout"><strong>Portfolio value:</strong> This project proves practical identity, endpoint and Microsoft cloud administration understanding beyond normal helpdesk exposure.</div>
+      <h2>Environment</h2>
+      <ul>
+        <li><strong>Domain:</strong> zondi.operations</li>
+        <li><strong>DC01-ENTRA:</strong> Active Directory Domain Services and DNS</li>
+        <li><strong>SYNC01:</strong> Microsoft Entra Connect server</li>
+        <li><strong>CL01-ENTRA:</strong> Windows client device</li>
+        <li><strong>Identity sync:</strong> Password Hash Sync</li>
+        <li><strong>Management:</strong> Microsoft Intune and Defender for Endpoint</li>
+      </ul>
+      <h2>What I configured</h2>
+      <ul>
+        <li>Built a Windows Server domain controller and configured the lab domain.</li>
+        <li>Joined a Windows client device to the domain.</li>
+        <li>Installed and configured Microsoft Entra Connect with Password Hash Sync.</li>
+        <li>Synced selected users from Active Directory to Microsoft Entra ID.</li>
+        <li>Configured Hybrid Microsoft Entra Join through policy and verified device state.</li>
+        <li>Enabled Intune MDM enrollment and assigned compliance policy.</li>
+        <li>Tested Conditional Access and MFA behaviour.</li>
+        <li>Onboarded the endpoint to Defender for Endpoint.</li>
+      </ul>
+      <h2>Troubleshooting notes</h2>
+      <p>Important checks included verifying DNS configuration, OU sync scope, Entra Connect sync status, device registration status, MDM scope, compliance assignment and device check-in status.</p>
+      <h2>Skills demonstrated</h2>
+      <div class="tags"><span class="tag">Active Directory</span><span class="tag">DNS</span><span class="tag">Entra Connect</span><span class="tag">Password Hash Sync</span><span class="tag">Hybrid Join</span><span class="tag">Intune</span><span class="tag">Conditional Access</span><span class="tag">MFA</span><span class="tag">Defender</span></div>
+      <h2>Next improvements</h2>
+      <ul>
+        <li>Add more realistic user groups and dynamic device groups.</li>
+        <li>Document a break/fix scenario for Hybrid Microsoft Entra Join failure.</li>
+        <li>Add screenshots from Entra, Intune, dsregcmd and Defender portals.</li>
+      </ul>
+      <p><a class="button primary" href="../repos/hybrid-identity-lab/README.md">View repo README template</a></p>
+    </div></section>
+  </main>
+  <script src="../assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SonicWall Firewall & VPN Lab | Lungani Zondi</title>
+  <link rel="stylesheet" href="../assets/styles.css" />
+</head>
+<body>
+  <header class="nav"><div class="container nav-inner"><a class="brand" href="../index.html"><span class="brand-mark">LZ</span><span>Lungani Zondi</span></a><button class="menu-button" aria-expanded="false">Menu</button><nav class="nav-links"><a href="../index.html#projects">Projects</a><a href="../index.html#skills">Skills</a><a href="../index.html#contact">Contact</a></nav></div></header>
+  <main>
+    <section class="page-hero"><div class="container"><div class="breadcrumb"><a href="../index.html">Home</a> / Projects</div><h1>SonicWall Firewall & VPN Lab</h1><p class="lead">Firewall, NAT, SSL VPN/NetExtender access, user group access, logs and connectivity troubleshooting.</p></div></section>
+    <section class="section"><div class="container article">
+      <div class="diagram"><img src="../assets/sonicwall-firewall.svg" alt="SonicWall firewall and VPN lab architecture diagram"></div>
+      <h2>Project overview</h2>
+      <p>This lab is designed to show practical network security and remote access support skills using SonicWall-style firewall concepts. It focuses on how users securely connect from outside the network, how firewall rules control access, and how logs help with troubleshooting.</p>
+      <div class="callout"><strong>Portfolio value:</strong> This project connects my real VPN support exposure with a structured firewall/security lab that is relevant for MSP, systems support, cloud support and network support roles.</div>
+      <h2>What I focused on</h2>
+      <ul>
+        <li><strong>Firewall rules:</strong> understanding how allow/deny rules control traffic between zones.</li>
+        <li><strong>SSL VPN access:</strong> documenting the access flow for a remote user using NetExtender / SSL VPN.</li>
+        <li><strong>User group access:</strong> showing how membership in an SSLVPN/SSL-VPN group affects VPN access.</li>
+        <li><strong>NAT concepts:</strong> understanding how internal services can be exposed or protected through NAT rules.</li>
+        <li><strong>Logs and troubleshooting:</strong> reviewing connection attempts, failed access, authentication checks and firewall logs.</li>
+        <li><strong>Support process:</strong> documenting how I would troubleshoot a user who cannot connect remotely.</li>
+      </ul>
+      <h2>Example troubleshooting workflow</h2>
+      <ol>
+        <li>Confirm the user, device, network and exact VPN error.</li>
+        <li>Check if the user is in the correct SSLVPN/SSL-VPN access group.</li>
+        <li>Confirm MFA or password status if identity is involved.</li>
+        <li>Check NetExtender client version and basic internet connectivity.</li>
+        <li>Review firewall/VPN logs for denied authentication or policy blocks.</li>
+        <li>Test access again and document the final resolution.</li>
+      </ol>
+      <h2>Skills demonstrated</h2>
+      <div class="tags"><span class="tag">SonicWall</span><span class="tag">Firewall Rules</span><span class="tag">SSL VPN</span><span class="tag">NetExtender</span><span class="tag">NAT</span><span class="tag">Access Groups</span><span class="tag">Logs</span><span class="tag">Troubleshooting</span></div>
+      <h2>Next improvements</h2>
+      <ul>
+        <li>Add sanitized screenshots from a lab or training firewall interface.</li>
+        <li>Add a simple network diagram with WAN, LAN, VPN and internal resources.</li>
+        <li>Add a documented break/fix scenario for a user not in the correct SSLVPN group.</li>
+      </ul>
+      <p><a class="button primary" href="../repos/sonicwall-firewall-lab/README.md">View repo README template</a></p>
+    </div></section>
+  </main>
+  <script src="../assets/main.js"></script>
+</body>
+</html>
