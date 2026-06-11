@@ -3,7 +3,7 @@
 This is a static GitHub Pages portfolio website for Lungani Zondi.
 
 ## Live URL After Deployment
-`https://luhlungz.github.io`
+`https://lunganizondi.dev`
 
 ## Main Focus
 - Microsoft 365 administration
